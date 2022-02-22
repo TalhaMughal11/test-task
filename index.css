@@ -55,9 +55,7 @@
 }
 
 @media (max-width:600px){
-    .signup{
-        height: 300px;
-    }
+  
 
     .login{
         padding-bottom: 15px;
