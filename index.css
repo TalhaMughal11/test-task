@@ -1,0 +1,65 @@
+.task{
+    text-align: center;
+}
+
+.row{
+    height: 30rem;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.signup{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background: linear-gradient(120deg, red, hotpink);
+}
+
+.sub-button{
+    border-radius: 20px;
+    width: 100px;
+    font-weight: 600;
+}
+
+.signup-button{
+    border-radius: 20px;
+    width: 150px;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+
+.info-button{
+    text-align: center;
+}
+
+.button-green{
+    height: 55px;
+    width: 280px;
+    font-size: 25px;
+}
+
+.username{
+    background-color: #ced4;
+}
+
+.password{
+    background-color: #ced4;
+}
+
+@media (max-width:600px){
+    .signup{
+        height: 300px;
+    }
+
+    .login{
+        padding-bottom: 15px;
+    }
+}
